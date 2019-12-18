@@ -1,5 +1,5 @@
 FROM python:stretch
-
+ENV DEBIAN_FRONTEND noninteractive
 COPY . /app
 WORKDIR /app
 
